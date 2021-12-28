@@ -3934,7 +3934,8 @@
     )
   )
 
-  (gr_line (start 162.9918 70.5358) (end 172.974 70.5358) (layer "B.SilkS") (width 0.254) (tstamp 8e564e58-8bec-43e9-88bc-cc66c60da8f6))
+  (gr_line (start 167.940558 70.8152) (end 176.601958 70.8152) (layer "B.SilkS") (width 0.1524) (tstamp 8e564e58-8bec-43e9-88bc-cc66c60da8f6))
+  (gr_line (start 168.2242 67.0814) (end 168.2242 70.0278) (layer "B.SilkS") (width 0.1524) (tstamp ae491f31-545b-40e0-b8fa-5a42ad2755b6))
   (gr_arc locked (start 158.344657 62.713657) (mid 158.5976 62.103) (end 159.208257 61.850057) (layer "Edge.Cuts") (width 0.1) (tstamp 0cfcd20a-158f-4a05-91ac-196803760ad6))
   (gr_arc locked (start 216.6874 97.3074) (mid 216.434457 97.918057) (end 215.8238 98.171) (layer "Edge.Cuts") (width 0.1) (tstamp 1d7e1bee-815e-4114-9543-917bf217c06a))
   (gr_arc locked (start 159.2072 98.171) (mid 158.596543 97.918057) (end 158.3436 97.3074) (layer "Edge.Cuts") (width 0.1) (tstamp 20bdbb72-824f-4116-b33e-3097b28f7afd))
@@ -3943,7 +3944,7 @@
   (gr_line locked (start 159.208257 61.850057) (end 215.8238 61.849) (layer "Edge.Cuts") (width 0.1) (tstamp 7307e2d8-f9e7-486b-b165-5f689e37a546))
   (gr_line locked (start 158.3436 97.3074) (end 158.344657 62.713657) (layer "Edge.Cuts") (width 0.1) (tstamp d8d14a62-5b00-4540-adcd-d0e6c70a971e))
   (gr_line locked (start 215.8238 98.171) (end 159.2072 98.171) (layer "Edge.Cuts") (width 0.1) (tstamp e41aad5e-19bc-4043-8ac9-358b0726336b))
-  (gr_text "Designed by Forairaaaaa" (at 175.1838 67.4116 180) (layer "B.SilkS") (tstamp 1c4822b7-b616-4b5d-9c9e-f8a52b71861d)
+  (gr_text "Designed By Forairaaaaa" (at 176.5554 67.818 180) (layer "B.SilkS") (tstamp 1c4822b7-b616-4b5d-9c9e-f8a52b71861d)
     (effects (font (size 0.8128 0.8128) (thickness 0.15) italic) (justify mirror))
   )
   (gr_text "RST" (at 168.4528 63.2206 180) (layer "B.SilkS") (tstamp 1fa6bafa-95fd-4855-a440-e0ef002bb610)
@@ -3961,16 +3962,19 @@
   (gr_text "POWER" (at 211.8868 86.7156 270) (layer "B.SilkS") (tstamp 53bcfa96-8129-42fd-8f1d-d5407eddfc71)
     (effects (font (size 0.762 0.762) (thickness 0.1524)) (justify mirror))
   )
-  (gr_text "ESP32-S" (at 200.0504 75.946 180) (layer "B.SilkS") (tstamp 5d52e05e-7418-42d4-af9f-8a2c0aa9318f)
+  (gr_text "ESP32-S" (at 200.1774 75.9206 180) (layer "B.SilkS") (tstamp 5d52e05e-7418-42d4-af9f-8a2c0aa9318f)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "B" (at 193.7004 63.5508 180) (layer "B.SilkS") (tstamp 633d336d-4a76-42b5-888f-b9581fe025ad)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
+  (gr_text "https://gitee.com/forairaaaaa/e-lcd2.git" (at 181.896658 69.6214 180) (layer "B.SilkS") (tstamp 67a6b916-ca7a-41fc-ae72-435f634ad18a)
+    (effects (font (size 0.8128 0.8128) (thickness 0.15) italic) (justify mirror))
+  )
   (gr_text "IO12" (at 175.5394 63.2206 180) (layer "B.SilkS") (tstamp 6da98e06-f284-4202-976e-43df40954d8d)
     (effects (font (size 0.762 0.762) (thickness 0.1524)) (justify mirror))
   )
-  (gr_text "LCD_BL_DIS" (at 170.561 75.5904 180) (layer "B.SilkS") (tstamp ae05933b-66f8-4360-8b45-dd8e0cc37957)
+  (gr_text "R5" (at 173.9138 75.5396 90) (layer "B.SilkS") (tstamp ae05933b-66f8-4360-8b45-dd8e0cc37957)
     (effects (font (size 0.762 0.762) (thickness 0.1524)) (justify mirror))
   )
   (gr_text "C" (at 204.9272 63.5508 180) (layer "B.SilkS") (tstamp c9f05bda-27aa-45f5-bbb0-43bbd466a33b)
@@ -3982,13 +3986,13 @@
   (gr_text "IO15" (at 204.9526 65.2272 180) (layer "B.SilkS") (tstamp e9c221c3-e5ed-4807-8258-ded2618141e5)
     (effects (font (size 0.762 0.762) (thickness 0.1524)) (justify mirror))
   )
-  (gr_text "E-LCD2" (at 168.0718 72.263 180) (layer "B.SilkS") (tstamp ea3ec43d-8a34-4c5b-9f2a-78558a1bac1b)
-    (effects (font (size 1.778 1.778) (thickness 0.381) italic) (justify mirror))
+  (gr_text "E-LCD2" (at 172.339 72.1614 180) (layer "B.SilkS") (tstamp ea3ec43d-8a34-4c5b-9f2a-78558a1bac1b)
+    (effects (font (size 1.524 1.524) (thickness 0.3048) italic) (justify mirror))
   )
-  (gr_text "LCD_2.0IPS_ST7789_12PIN" (at 211.6074 87.503 90) (layer "F.SilkS") (tstamp d7ef4525-d2f7-46e9-bb2d-637f80eedb75)
+  (gr_text "LCD-2.0-IPS-ST7789-12PIN" (at 194.5894 64.1858 180) (layer "F.SilkS") (tstamp d7ef4525-d2f7-46e9-bb2d-637f80eedb75)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "JLCJLCJLCJLC\n" (at 200.9648 96.1136) (layer "F.SilkS") (tstamp e310900c-6f86-4db8-b60e-432ceb83c2eb)
+  (gr_text "JLCJLCJLCJLC\n" (at 167.64 64.1858 180) (layer "F.SilkS") (tstamp e310900c-6f86-4db8-b60e-432ceb83c2eb)
     (effects (font (size 0.762 0.762) (thickness 0.1524)))
   )
 
@@ -35578,10 +35582,28 @@
       )
     )
   )
+  (group "" (id 19a4f767-dc1c-42e6-80bf-577af4534bd6)
+    (members
+      1c4822b7-b616-4b5d-9c9e-f8a52b71861d
+      67a6b916-ca7a-41fc-ae72-435f634ad18a
+    )
+  )
   (group "" (id 7e776479-96d3-4c2b-817d-6ed3da628f08)
     (members
       8e564e58-8bec-43e9-88bc-cc66c60da8f6
       ea3ec43d-8a34-4c5b-9f2a-78558a1bac1b
+    )
+  )
+  (group "" (id bab46f34-8c8a-41f0-bea2-5779a0f6a524)
+    (members
+      7e776479-96d3-4c2b-817d-6ed3da628f08
+      ee94cadf-f076-4d4f-b155-63eea51e1793
+    )
+  )
+  (group "" (id ee94cadf-f076-4d4f-b155-63eea51e1793)
+    (members
+      19a4f767-dc1c-42e6-80bf-577af4534bd6
+      ae491f31-545b-40e0-b8fa-5a42ad2755b6
     )
   )
 )
