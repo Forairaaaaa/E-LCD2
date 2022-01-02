@@ -1,4 +1,4 @@
-19823732572973963
+19830295508186644
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -77966,6 +77966,13 @@ CAP-SMD_L3.5-W2.8-R-RD
 2
 2
 SnapEDA
+E-LCD2
+
+
+0
+28
+28
+SnapEDA
 HDR-SMD_16P-P2.54-V-M-R2-C8-S2.54
 
 
@@ -77993,6 +78000,13 @@ QFN50P500X500X100-29N
 0
 29
 29
+SnapEDA
+SBUS接口 2.54mm
+
+
+0
+3
+3
 SnapEDA
 SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR
 
@@ -78029,6 +78043,13 @@ TF-SMD_TF-01A
 13
 13
 SnapEDA
+TTL-RS485 模块
+
+
+0
+8
+8
+SnapEDA
 USBC-16pin
 
 
@@ -78042,6 +78063,13 @@ WIFIM-SMD_ESP32-S32MB
 0
 39
 39
+SnapEDA
+海思Hi3861开发板
+
+
+0
+24
+24
 Socket
 3M_Textool_240-1288-00-0602J_2x20_P2.54mm
 3M 40-pin zero insertion force socket, though-hole, row spacing 25.4 mm (1000 mils)
