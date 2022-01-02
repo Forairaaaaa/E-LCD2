@@ -1,37 +1,42 @@
 # E-LCD2
 
-#### 介绍
-超易复刻，板载2.0寸LCD的ESP32核心板。
+超级容易复刻，板载 2.0 寸 LCD 的 ESP32 核心板~
 
-#### 软件架构
-软件架构说明
+因为项目有 ESP32 + lcd 屏幕需求，所以干脆画个板载 LCD 的 ESP32 核心板，也刚好拿Kicad6练练手~
 
+#### 核心板资源
 
-#### 安装教程
+- 安信可 ESP-32S 模组，焊接友好
+- USB-C 接口，基于 CP2102（CH9102）USB-TTL 自动下载
+- 复位按键、3 颗用户按键
+- 2.0 寸 SPI LCD， 分辨率 240*320
+- 引出绝大部分 IO
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### 缺点
 
-#### 使用说明
+- 没有板载 PSRAM ，所以单板不适合用于特别复杂的图形应用
+- 用户按键所使用的 IO 为 ESP32 模组内部的 ADC2 复用引脚，在使用 WIFI 时要注意
+- IO 口引出排针没画出各个引脚丝印，作开发板使用引出引脚时比较麻烦 
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### 焊接注意
 
-#### 参与贡献
+- 建议使用加热台，会方便很多~
+- 板子上 R5 默认不焊接，短接后 LCD 背光默认开启，不受引脚控制
+- 板子上 R3 默认焊接，短接后 LCD 可以由引脚控制复位，避免出现上电后需要手动复位 LCD 才能正常显示的问题~
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+#### 引脚定义
 
+| 功能     | 引脚                                                     |
+| -------- | -------------------------------------------------------- |
+| LCD_MOSI | IO19                                                     |
+| LCD_SCLK | IO18                                                     |
+| LCD_CS   | IO5                                                      |
+| LCD_DC   | IO16                                                     |
+| LCD_RST  | IO17                                                     |
+| LCD_BL   | IO4 （有复用风险？但目前使用没发现问题，下版本应该会改） |
+| 用户按键 | 板子丝印有标注~                                          |
 
-#### 特技
+#### 原理图
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+![sch](README.assets/sch.jpg)
+

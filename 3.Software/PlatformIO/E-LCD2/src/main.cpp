@@ -2,7 +2,7 @@
 /* LVGL setup */
 #include <lvgl.h>
 #include <lv_port_disp.h>
-// #include <lv_port_indev.h>
+#include <lv_port_indev.h>
 /* LVGL demo */
 #include <lv_demo.h>
 
@@ -11,13 +11,12 @@ void setup()
 {
     lv_init();
     lv_port_disp_init();
-    // lv_port_indev_init();
+    lv_port_indev_init();
 
-    lv_demo_benchmark();
+    // lv_demo_benchmark();
     // lv_demo_stress();
     // lv_demo_music();
-    // lv_demo_widgets();
-    // lv_demo_keypad_encoder();
+    lv_demo_keypad_encoder();
 
 }
 
@@ -29,4 +28,3 @@ void loop()
     lv_timer_handler();
     delay(5);
 }
-
