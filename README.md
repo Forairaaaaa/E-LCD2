@@ -1,6 +1,8 @@
 # E-LCD2
 
-超级容易复刻，板载 2.0 寸 LCD 的 ESP32 核心板~
+![Untitled_1.2.1](README.assets/Untitled_1.2.1.png)
+
+超级容易复刻，板载 2.0 寸 LCD 屏幕的 ESP32 核心板~
 
 因为项目有 ESP32 + lcd 屏幕需求，所以干脆画个板载 LCD 的 ESP32 核心板，也刚好拿Kicad6练练手~
 
