@@ -6,9 +6,7 @@
 
 因为项目有 ESP32 + lcd 屏幕需求，所以干脆画个板载 LCD 的 ESP32 核心板，也刚好拿Kicad6练练手~
 
-视频介绍：
-
-[【开源】超容易复刻的“大屏” ESP32 核心板~]: https://www.bilibili.com/video/BV13i4y197NZ?share_source=copy_web
+视频介绍：https://www.bilibili.com/video/BV13i4y197NZ?share_source=copy_web
 
 #### 核心板资源
 
