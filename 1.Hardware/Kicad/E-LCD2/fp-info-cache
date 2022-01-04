@@ -1,4 +1,4 @@
-19830295508186644
+19833578726046945
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -77994,6 +77994,13 @@ LED0603-R-RD
 2
 2
 SnapEDA
+OLED 0.96 I2C
+
+
+0
+4
+4
+SnapEDA
 QFN50P500X500X100-29N
 
 
@@ -78063,6 +78070,13 @@ WIFIM-SMD_ESP32-S32MB
 0
 39
 39
+SnapEDA
+接线端子-2P-8.4MM
+
+
+0
+2
+2
 SnapEDA
 海思Hi3861开发板
 
