@@ -1,6 +1,6 @@
 # E-LCD2
 
-![Untitled_1.2.1](README.assets/Untitled_1.2.1.png)
+![Untitled_1.2.1](https://gitee.com/forairaaaaa/e-lcd2/raw/master/README.assets/Untitled_1.2.1.png)
 
 超级容易复刻，板载 2.0 寸 LCD 屏幕的 ESP32 核心板~
 
