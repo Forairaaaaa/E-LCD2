@@ -1,6 +1,6 @@
 # E-LCD2
 
-![Untitled_1.2.1](https://gitee.com/forairaaaaa/e-lcd2/raw/master/README.assets/Untitled_1.2.1.png)
+![Untitled_1.2.1](https://github.com/Forairaaaaa/E-LCD2/blob/master/README.assets/Untitled_1.2.1.png?raw=true)
 
 超级容易复刻，板载 2.0 寸 LCD 屏幕的 ESP32 核心板~
 
@@ -46,5 +46,5 @@
 
 #### 原理图
 
-![sch](README.assets/sch.jpg)
+![sch](https://github.com/Forairaaaaa/E-LCD2/blob/master/README.assets/sch.jpg?raw=true)
 
